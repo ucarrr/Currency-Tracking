@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="title">{% block title %} Döviz Data {% endblock %}</h1>
+    <div class="content">
+      
+        {% for data in data %}
+            <div class="article">
+                <p><b>#{{ data.AED }}</b></p>
+                <b>
+                    <div class="name">
+
+                      <p> BanknoteSelling:  {{ data.AED.BanknoteSelling }} </p>
+ 
+                    </div>
+                </b>
+                <p>temperature: {{ data.AED.CrossRateUSD }}</p>
+                <p>CurrencyName: {{ data.AED.CurrencyName }}</p>
+                <p>ForexBuying: {{ data.AED.ForexBuying }}</p>
+                <p class="bio">ForexSelling: {{ data.AED.ForexSelling }}</p>
+               
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
