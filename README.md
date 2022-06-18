@@ -9,7 +9,9 @@ Currency Tracking with Flask and React Native
 
 after running flak on localhost
 this address http://192.168.1.7:5000/ is changing.
+
 ![This is an image](https://github.com/ucarrr/Currency-Tracking/blob/main/images/getlink.png)
+
 Run react-native by adding /api/doviz to the beginning of the new address
 
 **npx react-native start**
