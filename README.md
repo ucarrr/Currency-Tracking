@@ -8,6 +8,8 @@ Currency Tracking with Flask and React Native
 
 
 after running flak on localhost
+
+React native project in BorsaProject
 In App.js, this address changes to http://192.168.1.7:5000/.
 
 ![This is an image](https://github.com/ucarrr/Currency-Tracking/blob/main/images/getlink.png)
